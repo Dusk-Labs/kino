@@ -1,0 +1,15 @@
+[package]
+name = "kino"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.11.3", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0.117", features = ["derive"] }
+dialoguer = "0.8.0"
+toml = "0.5.8"
+dirs = "*"
+clap = "*"
